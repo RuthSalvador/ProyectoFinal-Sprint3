@@ -16,16 +16,51 @@ body {
   width: 100%;
 }
 
+nav {
+  position: fixed;
+  top: 0;
+}
+
 .nav-option {
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 28px;
   right: 70px;
   color: #ffffff;
 }
 
+.pink {
+  border: 1px solid #ff00bf;
+  border-radius: 7px;
+  color: #ff00bf;
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.back-header {
+  width: 1350px;
+  height: 84px;
+}
+
+.back-white {
+  background-color: #ffffff;
+}
+
+.color-gris {
+  color: #333447;
+  z-index: 99999999;
+}
+
+.no-show {
+  display: none !important;
+}
+
 .nav-option span{
-  padding: 14px 28px;
+  margin: 0 7px;
+  padding: 14px 21px;
 }
 
 .ovalo {
