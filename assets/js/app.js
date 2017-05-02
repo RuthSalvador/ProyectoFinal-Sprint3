@@ -29,7 +29,6 @@ document.getElementById("cel").addEventListener("click", function(e){
   var divEmail = document.getElementById("div-email");
   var divCity = document.getElementById("div-city");
 
-
   divName.classList.remove("no-show");
   divEmail.classList.remove("no-show");
   divCity.classList.remove("no-show");
