@@ -23,8 +23,47 @@ header {
   right: 0;
   top: 21px;
   right: 42px;
+  color: #ffffff;
 }
 
 .nav-option span{
-  padding: 0 7px;
+  padding: 7px 7px;
+}
+
+.ovalo {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+
+.registro {
+  position: absolute;
+  top: 72px;
+  right: 0;
+  background-color: #ffffff;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.versalitas {
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.azulino {
+  color: #352384;
+}
+
+.rem2 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.blocks {
+  display: block;
+}
+.small {
+  font-size: 0.7rem;
+  padding-top: 7px;
 }
