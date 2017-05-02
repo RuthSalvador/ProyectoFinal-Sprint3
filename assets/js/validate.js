@@ -18,46 +18,41 @@ function validaFormulario(){
 
   function validaCelular(celular){
     if(celular.value.length == 0 || (!(/[0-9]{9}/.test(celular.value)))){
-      mostrar("span-cel");
-      celular.focus();
+      mostrar(celular);
       return false;
     }else {
-      ocultar("span-cel");
+      ocultar(celular);
     }
   }
 
 /*** Validando campo nombre***/
   function validaNombre(name){
     if(name.value.length == 0 ){
-      mostrar("span-name");
-      name.focus();
+      mostrar(name);
       return false;
     }
     for (var i = 1; i< name.value.length ; i++){
       if( !(/[A-ZÑÁÉÍÓÚa-zñáéíóú]/.test(name.value.split("")[i]))){
-        mostrar("span-name");
-        name.focus();
+        mostrar(name);
         return false;
       }
     }
     if( !(/[A-ZÑÁÉÍÓÚ]/.test(name.value.split("")[0]))){
-      mostrar("span-name");
-      name.focus();
+      mostrar(name);
       return false;
     }
     else {
-      ocultar("span-name");
+      ocultar(name);
     }
   }
 
   /*** Validando campo email***/
   function validaEmail(email){
     if(email.value.length == 0 || (!(/[\w-\.]{3,}@[\w-]{3,}\.[A-Za-z]{2,3}/.test(email.value))) ){
-      mostrar(span)
-      email.focus();
+      mostrar(email)
       return false;
     }else {
-      ocultar(span);
+      ocultar(email);
     }
   }
 
@@ -65,34 +60,31 @@ function validaFormulario(){
   /*** Validando campo city***/
   function validaCity(city){
       if(city.value.length == 0 ){
-        mostrar("span-city");
-        city.focus();
+        mostrar(city);
         return false;
       }
       for (var i = 1; i< city.value.length ; i++){
         if( !(/[A-ZÑÁÉÍÓÚa-zñáéíóú]/.test(city.value.split("")[i]))){
-          mostrar("span-city");
-          city.focus();
+          mostrar(city);
           return false;
         }
       }
       if( !(/[A-ZÑÁÉÍÓÚ]/.test(city.value.split("")[0]))){
-        mostrar("span-city");
-        city.focus();
+        ocultar(city)
         return false;
       }
       else {
-        ocultar("span-city");
+        mostrar(city);
       }
     }
 
 
-  function ocultar(span){
-    var span = document.getElementById(span);
+  function ocultar(input){
+    var span = input.nextElementSibling;
     span.setAttribute("style","display:none");
   }
 
-  function mostrar(span){
-      var span = document.getElementById(span);
+  function mostrar(input){
+      var span = input.nextElementSibling;
       span.setAttribute("style","display:block");
   }
