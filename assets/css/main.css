@@ -129,10 +129,51 @@ figure img {
   width: 100%;
 }
 
-.frase h1, .frase h1+h1 {
+.frase h1, .frase h1+h1, .text-video h1 {
   margin-top: 0;
 }
 
 .no-botton {
   margin-bottom: 0;
+}
+
+.box-videos {
+  position: relative;
+  height: 504px;
+  background-color: #ffffff;
+}
+
+.text-video, .text-video-right {
+  width: 420px;
+  box-sizing: border-box;
+  padding: 35px;
+  color: #000000;
+}
+
+.text-video-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.img-video-right, .img-video-left {
+  width: 896px;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.img-video-right {
+  right: 0;
+}
+
+.img-video-left {
+  left: 0;
+}
+
+
+
+iframe {
+  width: 100%;
 }
