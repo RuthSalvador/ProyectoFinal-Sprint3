@@ -28,16 +28,25 @@
 
       </nav>
       <div class="registro">
-        <form class="" action="index.html" method="post">
+        <form class="formulario" method="post" novalidate>
           <span class="uppercase azulino big blocks">turn miles</span>
           <span class="uppercase azulino big blocks">into money</span>
           <span class="versalitas azulino blocks">sign up to drive with lyft.</span>
-          <input type="cel" id="cel" class="blocks decor" placeholder="Phone number">
-          <input type="text" id="name" class="no-show blocks decor" placeholder="Name">
-          <input type="email" id="email" class="no-show blocks decor" placeholder="Email">
-          <input type="text" id="city" class="no-show blocks decor" placeholder="City">
-          <button type="submit" id="become">Become a driver</button>
-          <button type="button" id="sign">Sign up to ride</button>
+          <div class="fill">
+            <input type="cel" id="cel" class="blocks decor" placeholder="Phone number">
+              <span><img src="assets/img/error.png" alt="error"></span>
+          </div>
+          <div class="fill"><input type="text" id="name" class="no-show blocks decor" placeholder="Name">
+            <span><img src="assets/img/error.png" alt="error"></span></div>
+          <div class="fill"><input type="email" id="email" class="no-show blocks decor" placeholder="Email">
+            <span><img src="assets/img/error.png" alt="error"></span>
+          </div>
+          <div class="fill">
+            <input type="text" id="city" class="no-show blocks decor" placeholder="City">
+              <span><img src="assets/img/error.png" alt="error"></span>
+          </div>
+            <button type="submit" id="become">Become a driver</button>
+            <button type="button" id="sign">Sign up to ride</button>
           <span class="small blocks">Already applied? Check the status of your application here.</span>
           <span class="small blocks">Earn money for inviting friends to drive. Learn more</span>
         </form>
@@ -140,5 +149,6 @@
 
 
     <script type="text/javascript" src="assets/js/app.js"></script>
+    <script type="text/javascript" src="assets/js/validate.js"></script>
   </body>
 </html>

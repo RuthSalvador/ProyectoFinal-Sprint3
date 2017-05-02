@@ -47,6 +47,7 @@ nav {
 
 .back-white {
   background-color: #ffffff;
+  z-index: 999999;
 }
 
 .color-gris {
@@ -109,6 +110,9 @@ nav {
   padding: 7px;
 }
 
+.fill {
+
+}
 .decor {
   width: 483px;
   padding: 21px 0 7px 0;
@@ -117,6 +121,11 @@ nav {
   border-right: none;
   border-bottom: 1px solid #352384;
   font-size: 1rem;
+}
+
+.decor:focus {
+  outline: none;
+  border-bottom: 1px solid #ff00bf;
 }
 
 button {
