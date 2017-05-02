@@ -1,6 +1,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
+  color: #728099;
 }
 
 header {
@@ -8,10 +9,10 @@ header {
 }
 
 .logo {
-  width: 56px;
+  width: 63px;
   position: absolute;
   top: 14px;
-  left: 42px;
+  left: 70px;
 }
 
 .logo img {
@@ -21,23 +22,25 @@ header {
 .nav-option {
   position: absolute;
   right: 0;
-  top: 21px;
-  right: 42px;
+  top: 28px;
+  right: 70px;
   color: #ffffff;
 }
 
 .nav-option span{
-  padding: 7px 7px;
+  padding: 14px 28px;
 }
 
 .ovalo {
   border: 1px solid #ffffff;
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 .registro {
+  box-sizing: border-box;
+  padding: 56px;
   position: absolute;
-  top: 72px;
+  top: 84px;
   right: 0;
   background-color: #ffffff;
 }
@@ -49,21 +52,54 @@ header {
 .versalitas {
   font-variant: small-caps;
   font-weight: bold;
+  padding-bottom: 14px;
+  font-size: 1.3rem;
 }
 
 .azulino {
   color: #352384;
 }
 
-.rem2 {
-  font-size: 2rem;
+.big {
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .blocks {
   display: block;
 }
+
 .small {
-  font-size: 0.7rem;
-  padding-top: 7px;
+  font-size: 0.6rem;
+  padding: 7px;
 }
+
+.decor {
+  width: 483px;
+  padding: 21px 0 7px 0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 1px solid #352384;
+  font-size: 1rem;
+}
+
+button {
+  margin: 21px 0 ;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1rem;
+  border: none;
+}
+
+#become {
+  background-color: #ff00bf;
+  padding: 14px 21px;
+  border-radius: 7px;
+  color: #ffffff;
+}
+
+#sign {
+  padding: 14px 21px;
+  background-color: #ffffff;
+  text-decoration: underline;
