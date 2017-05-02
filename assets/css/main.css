@@ -2,10 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   margin: 0;
   color: #728099;
-}
-
-header {
-  background: url(../video/hero-video.mp4);
+  background-color: #660e83;
 }
 
 .logo {
@@ -103,3 +100,39 @@ button {
   padding: 14px 21px;
   background-color: #ffffff;
   text-decoration: underline;
+}
+
+.informacion {
+  background: linear-gradient(#660e83, #2b1e66);
+  color: #ffffff;
+}
+
+.caja-info {
+  width: 80%;
+  height: 100%;
+  margin: 0 10%;
+  padding-top: 10%;
+
+}
+
+.xerry, figure {
+  display: inline-block;
+  width: 45%;
+  margin: 0 2%;
+}
+
+.frase {
+  margin-bottom: 70px;
+}
+
+figure img {
+  width: 100%;
+}
+
+.frase h1, .frase h1+h1 {
+  margin-top: 0;
+}
+
+.no-botton {
+  margin-bottom: 0;
+}
