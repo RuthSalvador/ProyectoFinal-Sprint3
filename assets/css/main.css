@@ -112,6 +112,8 @@ nav {
 
 .fill {
   width: 483px;
+  height: 26px;
+  padding: 21px 0 7px 0;
 }
 
 .fill span img {
@@ -123,7 +125,7 @@ nav {
 
 .decor {
   width: 100%;
-  padding: 21px 0 7px 0;
+
   border-top: none;
   border-left: none;
   border-right: none;

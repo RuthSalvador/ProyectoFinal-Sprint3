@@ -27,7 +27,14 @@ document.getElementById("cel").addEventListener("click", function(e){
   var name = document.getElementById("name");
   var email = document.getElementById("email");
   var city = document.getElementById("city");
+  var divName = document.getElementById("div-name");
+  var divEmail = document.getElementById("div-email");
+  var divCity = document.getElementById("div-city");
+
   name.classList.remove("no-show");
   email.classList.remove("no-show");
   city.classList.remove("no-show");
+  divName.classList.remove("no-show");
+  divEmail.classList.remove("no-show");
+  divCity.classList.remove("no-show");
 });
