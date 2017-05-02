@@ -111,10 +111,18 @@ nav {
 }
 
 .fill {
-
-}
-.decor {
   width: 483px;
+}
+
+.fill span img {
+  width: 21px;
+  position: relative;
+  bottom: 21px;
+  left: 462px;
+}
+
+.decor {
+  width: 100%;
   padding: 21px 0 7px 0;
   border-top: none;
   border-left: none;
