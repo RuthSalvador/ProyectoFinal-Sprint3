@@ -172,8 +172,59 @@ figure img {
   left: 0;
 }
 
-
-
 iframe {
   width: 100%;
+}
+
+footer {
+  background-color: #333447;
+  color: #ffffff;
+}
+
+.all-foot{
+  width: 80%;
+  margin: 0 10%;
+  padding: 3% 0;
+  display: inline-block;
+  position: relative;
+}
+
+.login, .partner, .learn, .images-foot {
+  width: 100px;
+  display: inline-block;
+  margin-right: 14%;
+}
+
+.images-foot {
+  position: absolute;
+  top: 42px;
+  right: 0;
+}
+
+.images-foot  {
+  width: 140px;
+}
+
+.images-foot .blocks img {
+  width: 100%;
+}
+
+.all-foot h2 {
+  font-size: 1.3rem;
+}
+
+.all-foot .blocks {
+  margin: 28px 0;
+  font-size: 0.9rem;
+}
+
+.social {
+  width: 100%;
+  text-align: center;
+}
+
+.social span {
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  padding: 7px;
 }
