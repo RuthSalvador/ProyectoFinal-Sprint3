@@ -1,7 +1,7 @@
 window.addEventListener("scroll", animationScroll);
 
 function animationScroll() {
-    if (document.body.scrollTop > 84) {
+    if (document.body.scrollTop > 1) {
       var mostrar = document.getElementsByClassName("pink");
       for (var i = 0; i < mostrar.length; i++){
         mostrar[i].classList.add("visible");
@@ -19,3 +19,15 @@ function animationScroll() {
       logo.setAttribute("alt","logo pink");
     }
 };
+
+
+
+document.getElementById("cel").addEventListener("click", function(e){
+  e.preventDefault();
+  var name = document.getElementById("name");
+  var email = document.getElementById("email");
+  var city = document.getElementById("city");
+  name.classList.remove("no-show");
+  email.classList.remove("no-show");
+  city.classList.remove("no-show");
+});
